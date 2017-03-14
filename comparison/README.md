@@ -20,10 +20,8 @@ List<Integer> myList = new ArrayList(Arrays.asList(10, 3, 5, 8, 7));
 
 ```
 my_list = [10, 3, 5, 8, 7]
-# convert list into set
-my_set = set(my_list)
-# True if the set contains a subset
-result = my_set.issuperset([5])
+# True if the list contains the element
+result = (5 in my_list)
 ```
 
 ### Java

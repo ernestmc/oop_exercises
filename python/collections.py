@@ -12,9 +12,7 @@ for i in range(len(my_list)):
       break
 print "index of 7: %d" %i
 print "size: %d" % len(my_list)
-my_set = set(my_list)
-print "includes 5? %s" % my_set.issuperset([5])
-print "includes 23? %s" % my_set.issuperset([23])
+print "includes 5? %s" % (5 in my_list)
 print "elements greater than 5: %s" % filter(lambda x: x > 5, my_list)
 print "+1 to each element: %s" % map(lambda x: x + 1, my_list)
 print "sum all elements: %d" % sum(my_list)
